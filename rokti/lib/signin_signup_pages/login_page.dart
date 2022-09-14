@@ -48,10 +48,52 @@ class _LoginPageState extends State<LoginPage> {
                 height: 100,
                 alignment: Alignment(-1.2, 1.0),
               ),
-
+              SizedBox(height: 10),
               // Email TextField
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 40.0),
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: Colors.grey[200],
+                    border: Border.all(color: Colors.white),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 20.0),
+                    child: TextField(
+                      decoration: InputDecoration(
+                        border: InputBorder.none,
+                        hintText: "Email",
+                        // labelText: "Email"
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(height: 10),
 
               // Password TextField
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 40.0),
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: Colors.grey[200],
+                    border: Border.all(color: Colors.white),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 20.0),
+                    child: TextField(
+                      obscureText: true,
+                      decoration: InputDecoration(
+                        border: InputBorder.none,
+                        hintText: "Password",
+                        // labelText: "Password"
+                      ),
+                    ),
+                  ),
+                ),
+              ),
 
               // Sign in Button
 

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/rokti_module/rokti_module.iml" filepath="$PROJECT_DIR$/rokti_module/rokti_module.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rokti_module/android/rokti_module_android.iml" filepath="$PROJECT_DIR$/rokti_module/android/rokti_module_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rokti/rokti.iml" filepath="$PROJECT_DIR$/rokti/rokti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rokti/android/rokti_module_android.iml" filepath="$PROJECT_DIR$/rokti/android/rokti_module_android.iml" />
     </modules>
   </component>
 </project>

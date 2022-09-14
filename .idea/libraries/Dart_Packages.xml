@@ -114,13 +114,6 @@
             </list>
           </value>
         </entry>
-        <entry key="rokti_module">
-          <value>
-            <list>
-              <option value="$PROJECT_DIR$/rokti_module/lib" />
-            </list>
-          </value>
-        </entry>
         <entry key="sky_engine">
           <value>
             <list>
@@ -187,7 +180,6 @@
       </option>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/rokti_module/lib" />
       <root url="file://D:/src/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.8.2/lib" />
       <root url="file://D:/src/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0/lib" />
       <root url="file://D:/src/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.2.0/lib" />

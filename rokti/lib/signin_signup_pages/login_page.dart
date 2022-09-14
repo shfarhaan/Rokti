@@ -21,6 +21,7 @@ class _LoginPageState extends State<LoginPage> {
         child: Scaffold(
           backgroundColor: Colors.grey[300],
           body: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
             children: [
               // sign up button on top right
               Padding(
@@ -41,7 +42,12 @@ class _LoginPageState extends State<LoginPage> {
               SizedBox(height: 80),
 
               // Logo
-              Image(image: image)
+              Image.asset(
+                'assets/blood_donation_logo.png',
+                width: 300,
+                height: 100,
+                alignment: Alignment(-1.2, 1.0),
+              ),
 
               // Email TextField
 

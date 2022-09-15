@@ -19,7 +19,7 @@ class _LoginPageState extends State<LoginPage> {
         bottom: true,
         // minimum: const EdgeInsets.all(16.0),
         child: Scaffold(
-          backgroundColor: Colors.grey[300],
+          backgroundColor: Colors.white,
           body: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
@@ -55,9 +55,14 @@ class _LoginPageState extends State<LoginPage> {
                 child: Container(
                   decoration: BoxDecoration(
                     color: Colors.grey[200],
-                    border: Border.all(color: Colors.white),
+                    border: Border.all(color: Colors.grey.shade400),
                     borderRadius: BorderRadius.circular(12),
                   ),
+
+                  // focusedBorder: OutlineInputBorder(
+                  //   borderSide:
+                  //   const BorderSide(color: Colors.red, width: 2.0),
+                  // ),
                   child: Padding(
                     padding: const EdgeInsets.only(left: 20.0),
                     child: TextField(
@@ -78,7 +83,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: Container(
                   decoration: BoxDecoration(
                     color: Colors.grey[200],
-                    border: Border.all(color: Colors.white),
+                    border: Border.all(color: Colors.grey.shade400),
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Padding(
@@ -95,8 +100,24 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
 
-              // Sign in Button
+              SizedBox(height: 20),
 
+              // Sign in Button
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 40.0),
+                child: Container(
+                  padding: EdgeInsets.all(20),
+                  decoration: BoxDecoration(
+                      color: Colors.red[700],
+                      borderRadius: BorderRadius.circular(12)),
+                  child: Center(
+                    child: Text(
+                      "Sign In",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
+                ),
+              )
               // Forgot Password Button
             ],
           ),

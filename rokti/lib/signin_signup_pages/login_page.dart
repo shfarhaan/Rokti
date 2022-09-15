@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -39,7 +40,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
 
-              SizedBox(height: 80),
+              SizedBox(height: 120),
 
               // Logo
               Image.asset(
@@ -48,7 +49,7 @@ class _LoginPageState extends State<LoginPage> {
                 height: 100,
                 alignment: Alignment(-1.2, 1.0),
               ),
-              SizedBox(height: 10),
+              SizedBox(height: 30),
               // Email TextField
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 40.0),
@@ -117,8 +118,25 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                 ),
-              )
+              ),
+
+              SizedBox(
+                height: 40,
+              ),
+
               // Forgot Password Button
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    'Forgot your Password?',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  Text(' Reset Password',
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold, color: Colors.red))
+                ],
+              )
             ],
           ),
         ),
